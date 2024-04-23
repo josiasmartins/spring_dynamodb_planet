@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.UUID;
 
 @EnableScan
-public interface PlanetRepository extends CrudRepository<Planet, UUID> {
+public interface PlanetRepository extends CrudRepository<Planet, String> {
 }
