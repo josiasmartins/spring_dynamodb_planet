@@ -1,6 +1,23 @@
 # Planet api with spring dynamodb
 
 ## configuracao do dynamodb
+#### dependencias
+```xml
+<!-- dependencias para o dynamodb -->
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-dynamodb</artifactId>
+    <version>1.11.64</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.derjust</groupId>
+    <artifactId>spring-data-dynamodb</artifactId>
+    <version>5.1.0</version>
+</dependency>
+<!-- dependencias para o dynamodb -->
+```
+
 ```properties
 amazon.dynamodb.endpoint=http://dynamodb.us-east-2.amazonaws.com
 amazon.aws.accesskey=
